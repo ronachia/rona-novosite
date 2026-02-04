@@ -9,8 +9,8 @@ const slides = [
   },
   {
     image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    title: 'Something New is',
-    title2: 'Always Waiting to be Known',
+    title: 'Something New is Always',
+    title2: 'Waiting to be Known',
     subtitle: 'Committed to improving quality of life through research'
   },
   {
@@ -20,8 +20,8 @@ const slides = [
   },
   {
     image: 'https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    title: 'Something New is',
-    title2: 'Always Waiting to be Known',
+    title: 'Something New is Always',
+    title2: 'Waiting to be Known',
     subtitle: 'Collaborating worldwide to advance medical science'
   }
 ];
