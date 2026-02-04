@@ -45,8 +45,7 @@ export default function Hero() {
   };
 
   return (
-    <div style={{ transform: 'scale(1.07)', transformOrigin: 'center top' }}>
-    <div className="relative h-[450px] md:h-[500px] overflow-hidden mt-20">
+    <div className="relative h-[600px] md:h-[700px] overflow-hidden mt-20">
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         <div className="scrolling-text">
           <span>RESEARCH DRIVEN BY PASSION</span>
@@ -76,13 +75,13 @@ export default function Hero() {
               <img
                 src="/aguia-solta-fundo-branco-removebg-preview.png"
                 alt="Keviva Logo"
-                className="w-28 md:w-36 lg:w-44 h-auto drop-shadow-2xl"
+                className="w-36 md:w-48 lg:w-56 h-auto drop-shadow-2xl"
               />
             </div>
 
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="max-w-3xl mx-auto px-4 text-center text-white relative z-10">
-                <h1 className="text-2xl md:text-3xl font-bold mb-3 drop-shadow-lg" style={{ color: '#c9b896' }}>
+              <div className="max-w-4xl mx-auto px-4 text-center text-white relative z-10">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 drop-shadow-lg" style={{ color: '#c9b896' }}>
                   {slide.title}
                   {slide.title2 && (
                     <>
@@ -91,7 +90,7 @@ export default function Hero() {
                     </>
                   )}
                 </h1>
-                <p className="text-lg md:text-xl font-light drop-shadow-md">
+                <p className="text-xl md:text-2xl lg:text-3xl font-light drop-shadow-md">
                   {slide.subtitle}
                 </p>
               </div>
@@ -130,7 +129,6 @@ export default function Hero() {
           />
         ))}
       </div>
-    </div>
     </div>
   );
 }

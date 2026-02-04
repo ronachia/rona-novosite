@@ -12,13 +12,13 @@ export default function Header() {
             <img src="/logonovo.png" alt="Keviva" className="h-12 md:h-14 w-auto" />
           </div>
 
-          <nav className="hidden lg:flex items-center space-x-6 gap-1 ml-12">
-            <a href="#home" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center">Home</a>
-            <a href="#company" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center max-w-[100px]">Our Company and Team</a>
-            <a href="#therapy" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center max-w-[100px]">Therapy and Research</a>
-            <a href="#news" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center max-w-[100px]">News and Events</a>
-            <a href="#partners" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center max-w-[100px]">Partners and Links</a>
-            <a href="#contact" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center">Contact</a>
+          <nav className="hidden lg:flex items-center space-x-8 gap-1 ml-12">
+            <a href="#home" className="text-white hover:text-[#c9b896] transition font-medium text-base leading-tight text-center">Home</a>
+            <a href="#company" className="text-white hover:text-[#c9b896] transition font-medium text-base leading-tight text-center max-w-[120px]">Our Company and Team</a>
+            <a href="#therapy" className="text-white hover:text-[#c9b896] transition font-medium text-base leading-tight text-center max-w-[120px]">Therapy and Research</a>
+            <a href="#news" className="text-white hover:text-[#c9b896] transition font-medium text-base leading-tight text-center max-w-[120px]">News and Events</a>
+            <a href="#partners" className="text-white hover:text-[#c9b896] transition font-medium text-base leading-tight text-center max-w-[120px]">Partners and Links</a>
+            <a href="#contact" className="text-white hover:text-[#c9b896] transition font-medium text-base leading-tight text-center">Contact</a>
           </nav>
 
           <button
