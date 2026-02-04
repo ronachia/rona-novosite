@@ -69,7 +69,7 @@ export default function Hero() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
 
           <div className="absolute inset-0">
-            <div className="absolute top-1/2 right-4 md:right-8 z-10" style={{ transform: 'translateY(-50%)' }}>
+            <div className="absolute top-1/2 left-4 md:left-8 z-10" style={{ transform: 'translateY(-50%)' }}>
               <img
                 src="/aguia-solta-fundo-branco-removebg-preview.png"
                 alt="Keviva Logo"
