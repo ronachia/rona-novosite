@@ -22,6 +22,7 @@ export default function Contact() {
   };
 
   return (
+    <div style={{ transform: 'scale(0.85)', transformOrigin: 'center top' }}>
     <section id="contact" className="py-12" style={{ backgroundColor: '#f5f3ee' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
@@ -163,5 +164,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    </div>
   );
 }

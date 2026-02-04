@@ -45,6 +45,7 @@ export default function Hero() {
   };
 
   return (
+    <div style={{ transform: 'scale(1.07)', transformOrigin: 'center top' }}>
     <div className="relative h-[450px] md:h-[500px] overflow-hidden mt-20">
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         <div className="scrolling-text">
@@ -129,6 +130,7 @@ export default function Hero() {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 }

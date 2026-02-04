@@ -1,5 +1,6 @@
 export default function About() {
   return (
+    <div style={{ transform: 'scale(0.85)', transformOrigin: 'center top' }}>
     <section id="company" className="py-12" style={{ backgroundColor: '#f5f3ee' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
@@ -30,5 +31,6 @@ export default function About() {
 
       </div>
     </section>
+    </div>
   );
 }

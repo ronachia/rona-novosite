@@ -45,6 +45,7 @@ const partners = [
 
 export default function Partners() {
   return (
+    <div style={{ transform: 'scale(0.85)', transformOrigin: 'center top' }}>
     <section id="partners" className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
@@ -104,5 +105,6 @@ export default function Partners() {
         </div>
       </div>
     </section>
+    </div>
   );
 }

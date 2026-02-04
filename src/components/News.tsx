@@ -23,6 +23,7 @@ const newsItems = [
 
 export default function News() {
   return (
+    <div style={{ transform: 'scale(0.85)', transformOrigin: 'center top' }}>
     <section id="news" className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
@@ -73,5 +74,6 @@ export default function News() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
