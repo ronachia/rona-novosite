@@ -7,12 +7,12 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50" style={{ backgroundColor: '#1a2340' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex items-center h-20">
           <div className="flex items-center">
             <img src="/logonovo.png" alt="Keviva" className="h-12 md:h-14 w-auto" />
           </div>
 
-          <nav className="hidden lg:flex items-center space-x-6 gap-1">
+          <nav className="hidden lg:flex items-center space-x-6 gap-1 ml-12">
             <a href="#home" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center">Home</a>
             <a href="#company" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center max-w-[100px]">Our Company and Team</a>
             <a href="#therapy" className="text-white hover:text-[#c9b896] transition font-medium text-sm leading-tight text-center max-w-[100px]">Therapy and Research</a>
@@ -22,7 +22,7 @@ export default function Header() {
           </nav>
 
           <button
-            className="lg:hidden text-white"
+            className="lg:hidden text-white ml-auto"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
