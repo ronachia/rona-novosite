@@ -9,7 +9,8 @@ const slides = [
   },
   {
     image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    title: 'Something New is Always Waiting to be Known',
+    title: 'Something New is',
+    title2: 'Always Waiting to be Known',
     subtitle: 'Committed to improving quality of life through research'
   },
   {
@@ -19,7 +20,8 @@ const slides = [
   },
   {
     image: 'https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    title: 'Something New is Always Waiting to be Known',
+    title: 'Something New is',
+    title2: 'Always Waiting to be Known',
     subtitle: 'Collaborating worldwide to advance medical science'
   }
 ];
@@ -81,6 +83,12 @@ export default function Hero() {
               <div className="max-w-3xl mx-auto px-4 text-center text-white relative z-10">
                 <h1 className="text-2xl md:text-3xl font-bold mb-3 drop-shadow-lg" style={{ color: '#c9b896' }}>
                   {slide.title}
+                  {slide.title2 && (
+                    <>
+                      <br />
+                      {slide.title2}
+                    </>
+                  )}
                 </h1>
                 <p className="text-lg md:text-xl font-light drop-shadow-md">
                   {slide.subtitle}
